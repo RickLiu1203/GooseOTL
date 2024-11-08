@@ -2,7 +2,7 @@
 'use client';
 
 import { ChangeEvent } from 'react';
-import ListBox from './ListBox';
+import ListBox from '../molecules/ListBox';
 
 interface SchoolBasicData {
     id: number;

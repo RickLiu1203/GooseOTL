@@ -4,7 +4,7 @@ import { useEffect, useState, ChangeEvent } from 'react';
 import data from '../../../../data/data.json';
 import detailedData from '../../../../data/datatest.json';
 import { useFocusContext } from '../../../providers/FocusProvider';
-import FocusInfo from './FocusInfo';
+import FocusInfo from './FocusedView';
 import SearchList from './SearchList';
 
 function SideBox() {
@@ -16,9 +16,9 @@ function SideBox() {
     };
 
     return (
-        <div className={`flex flex-col items-center bg-white h-full overflow-y-scroll no-scrollbar transition-all duration-200 relative ${focused ? "w-1/3" : "w-1/4"}`}>
+        <div className={`flex flex-col items-center bg-white h-full overflow-y-scroll no-scrollbar relative ${focused ? "w-3/10" : "w-1/4"}`}>
             {focused ? (
-                <FocusInfo schoolDetailedData={detailedData} />
+                <FocusInfo schoolData={detailedData} />
             ) : (
                 <SearchList 
                     schoolBasicData={data} 

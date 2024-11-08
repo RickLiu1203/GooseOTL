@@ -1,4 +1,5 @@
 import React from 'react'
+import SpotsIndicator from '../atoms/FocusView/SpotsIndicator';
 
 interface Props{
     school: string;
@@ -12,8 +13,9 @@ interface SpotsObj{
 
 function FocusTitle({school, spotsObj}: Props) {
   return (
-    <div className='flex justify-between'>
-        <h1></h1>
+    <div className='flex justify-between items-start w-full'>
+        <h1 className='text-3xl font-bold w-2/3'>{school}</h1>
+        <SpotsIndicator tier={spotsObj.tier} spots={spotsObj.spots} />
     </div>
   )
 }

@@ -9,10 +9,12 @@ interface Props{
 function SpotsIndicator({tier, spots}: Props) {
 
     return (
-        <div className='flex gap-2'>
-            <p>{spots} Spots</p>
+        <div className='flex gap-2 items-center'>
+            <p className='text-xl'>{spots} Spots</p>
             {tier === "Moderate" &&
-                <FaCircle/>
+            <div className='text-lime-500'>
+                <FaCircle size={20}/>
+            </div>
             }
         </div>
     )

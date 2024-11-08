@@ -1,0 +1,55 @@
+{
+    "0":{
+        "links":["links"],
+        "name": "school name",
+        "studyTerms": ["Fall", "Winter", "Spring"],
+        "openTo": ["Engineering", "Science etc"],
+        "academicLevels": ["Undergraduate", "Graduate"],
+        "location": "location",
+        "likeliness":{
+            "tier": "moderate, lowest etc",
+            "spots": "if a spot amount is present it goes here"
+        },
+        "termDates": [{"term": "example term eg. Spring", "startMonth": "start month", "endMonth": "end month"}],
+        "courses": {
+            "undergrad":{
+                "links":["links to courses pages"],
+                "restrictions": "restrictions",
+                "minCreditsPerTerm": "minimum credits/courses per term"
+            },
+            "graduate":{
+                "links":["links to courses pages"],
+                "restrictions": "restrictions",
+                "minCreditsPerTerm": "minimum credits/courses per term"
+            },
+            "general":{
+                "links":["links to courses pages"],
+                "restrictions": "other school specific restrictions"
+            }
+        },
+        "requirements": {
+            "undergrad":{
+                "minGrade": "min grade",
+                "other": "other undergrad requirements"
+            },
+            "graduate":{
+                "minGrade": "min grade",
+                "other": "other grad requirements"
+            },
+            "other":{
+                "requirementList": ["all other requirements in bullet form"]
+            }
+        },
+        "accomodation": {
+            "accomodationOffered": "type boolean if on campus accomodation is available",
+            "links": ["links"]
+        },
+        "otherInfo": [{
+            "url": "link or empty string if no link associated",
+            "text": "Likeliness - Moderate"
+        }]
+
+    }
+
+
+}

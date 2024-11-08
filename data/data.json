@@ -1,788 +1,919 @@
 [
     {
         "id": 0,
-        "name": "\u00c9cole Polytechnique, L\u2019X",
+        "name": "École Polytechnique, L’X",
         "city": "Palaiseau",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 1,
-        "name": "\u00c9cole Polytechnique, L\u2019X",
+        "name": "École Polytechnique, L’X",
         "city": "Palaiseau",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 2,
         "name": "Chung-Ang University (CAU)",
         "city": "Seoul",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 3,
         "name": "University College Dublin",
         "city": "Dublin ",
-        "country": "Ireland"
+        "country": "Ireland",
+        "flag": "🇮🇪"
     },
     {
         "id": 4,
         "name": "Akita International University",
         "city": "Akita",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 5,
         "name": "American College of Greece (ACG)",
         "city": "Athens",
-        "country": "Greece"
+        "country": "Greece",
+        "flag": "🇬🇷"
     },
     {
         "id": 6,
         "name": "Australian National University (ANU)",
         "city": "Canberra",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 7,
         "name": "Bayes Business School at City University of London",
         "city": "London",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 8,
         "name": "Chalmers University of Technology",
         "city": "Gothenburg",
-        "country": "Sweden"
+        "country": "Sweden",
+        "flag": "🇸🇪"
     },
     {
         "id": 9,
         "name": "Charles III University of Madrid (UC3M)",
         "city": "Madrid",
-        "country": "Spain"
+        "country": "Spain",
+        "flag": "🇪🇸"
     },
     {
         "id": 10,
         "name": "Chinese University of Hong Kong (CUHK)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 11,
         "name": "Chinese University of Hong Kong (CUHK)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 12,
         "name": "City University of Hong Kong (City U)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 13,
         "name": "Czech Technical University in Prague (CTU)",
         "city": "Prague",
-        "country": "Czech Republic"
+        "country": "Czech Republic",
+        "flag": "🇨🇿"
     },
     {
         "id": 14,
         "name": "Deakin University",
         "city": "Melbourne",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 15,
         "name": "Erasmus University Rotterdam",
         "city": "Rotterdam",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "flag": "🇳🇱"
     },
     {
         "id": 16,
         "name": "ETH Zurich",
         "city": "Zurich",
-        "country": "Switzerland"
+        "country": "Switzerland",
+        "flag": "🇨🇭"
     },
     {
         "id": 17,
         "name": "Ewha Womans University",
         "city": "Seoul",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 18,
         "name": "Ewha Womans University",
         "city": "Seoul",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 19,
         "name": "Graz University of Technology (TU Graz)",
         "city": "Graz",
-        "country": "Austria"
+        "country": "Austria",
+        "flag": "🇦🇹"
     },
     {
         "id": 20,
         "name": "Griffith University",
         "city": "Brisbane/Gold Coast, Queensland",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 21,
         "name": "Hamburg University of Technology (TUHH)",
         "city": "Hamburg",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 22,
         "name": "Heriot-Watt University",
         "city": "Edinburgh",
-        "country": "Scotland"
+        "country": "Scotland",
+        "flag": "🏴"
     },
     {
         "id": 23,
         "name": "Hong Kong Polytechnic University (Poly U)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 24,
         "name": "HZ University of Applied Sciences",
         "city": "Vlissingen",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "flag": "🇳🇱"
     },
     {
         "id": 25,
         "name": "IIT Delhi",
         "city": "Delhi",
-        "country": "India"
+        "country": "India",
+        "flag": "🇮🇳"
     },
     {
         "id": 26,
         "name": "Institute of Science Tokyo",
         "city": "Tokyo",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 27,
         "name": "Istanbul Technical University (ITU)",
         "city": "Istanbul",
-        "country": "Turkey"
+        "country": "Turkey",
+        "flag": "🇹🇷"
     },
     {
         "id": 28,
         "name": "Karlsruhe Institute of Technology (KIT)",
         "city": "Karlsruhe",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 29,
         "name": "King's College London (KCL)",
         "city": "London",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 30,
         "name": "Korea Advanced Institute of Science & Technology (KAIST)",
         "city": "Daejeon",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 31,
         "name": "Korea Advanced Institute of Science & Technology (KAIST)",
         "city": "Daejeon",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 32,
         "name": "Kyoto University",
         "city": "Kyoto",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 33,
         "name": "University of Lancaster",
         "city": "Lancaster",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 34,
         "name": "University of Leeds",
         "city": "Leeds",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 35,
         "name": "Leiden University",
         "city": "Leiden",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "flag": "🇳🇱"
     },
     {
         "id": 36,
         "name": "Lingnan University",
         "city": "Tuen Mun, New Territories ",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 37,
         "name": "University of Lund",
         "city": "Lund",
-        "country": "Sweden"
+        "country": "Sweden",
+        "flag": "🇸🇪"
     },
     {
         "id": 38,
         "name": "University of Lund",
         "city": "Lund",
-        "country": "Sweden"
+        "country": "Sweden",
+        "flag": "🇸🇪"
     },
     {
         "id": 39,
         "name": "University of Lund",
         "city": "Lund",
-        "country": "Sweden"
+        "country": "Sweden",
+        "flag": "🇸🇪"
     },
     {
         "id": 40,
         "name": "Macquarie University",
         "city": "Sydney/North Ryde, New South Wales",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 41,
         "name": "Malmo University",
         "city": "Malmo",
-        "country": "Sweden"
+        "country": "Sweden",
+        "flag": "🇸🇪"
     },
     {
         "id": 42,
         "name": "Paris - Waterloo Exchange, MICEFA-Triade (Consortium of Universities in Paris)",
         "city": "Paris",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 43,
         "name": "Paris - Waterloo Exchange, MICEFA-Triade (Consortium of Universities in Paris)",
         "city": "Paris",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 44,
         "name": "Paris - Waterloo Exchange, MICEFA-Triade (Consortium of Universities in Paris)",
         "city": "Paris",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 45,
         "name": "Middle East Technical University (METU)",
         "city": "Ankara",
-        "country": "Turkey"
+        "country": "Turkey",
+        "flag": "🇹🇷"
     },
     {
         "id": 46,
         "name": "Monash University",
         "city": "Subang Jaya",
-        "country": "Malaysia"
+        "country": "Malaysia",
+        "flag": "🇲🇾"
     },
     {
         "id": 47,
         "name": "Monash University",
         "city": "Melbourne, Victoria",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 48,
         "name": "Murdoch University",
         "city": "Perth, Western Australia",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 49,
         "name": "Nanyang Technological University (NTU)",
         "city": "Jurong West district",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 50,
         "name": "Nanyang Technological University (NTU)",
         "city": "Jurong West District",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 51,
         "name": "Nanyang Technological University (NTU)",
         "city": "Jurong West District",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 52,
         "name": "Nanyang Technological University (NTU)",
         "city": "Jurong West District",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 53,
         "name": "Nanyang Technological University (NTU)",
         "city": "Jurong West District",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 54,
         "name": "Nanyang Technological University (NTU)",
         "city": "Jurong West District",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 55,
         "name": "National Taiwan University",
         "city": "Taipei City",
-        "country": "Taiwan"
+        "country": "Taiwan",
+        "flag": "🇹🇼"
     },
     {
         "id": 56,
         "name": "National Tsing Hua University",
         "city": "Hsinchu",
-        "country": "Taiwan"
+        "country": "Taiwan",
+        "flag": "🇹🇼"
     },
     {
         "id": 57,
         "name": "National University of Singapore (NUS)",
         "city": "Singapore",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 58,
         "name": "Newcastle University",
         "city": "Newcastle and Wear",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 59,
         "name": "Norwegian University of Science & Technology (NTNU)",
         "city": "Trondheim",
-        "country": "Norway"
+        "country": "Norway",
+        "flag": "🇳🇴"
     },
     {
         "id": 60,
         "name": "Paris Dauphine University",
         "city": "Paris",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 61,
         "name": "Pohang University of Science and Technology (POSTECH)",
         "city": "Pohang",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 62,
         "name": "Polytechnic University of Milan (POLIMI)",
         "city": "Milan",
-        "country": "Italy"
+        "country": "Italy",
+        "flag": "🇮🇹"
     },
     {
         "id": 63,
         "name": "Queensland University of Technology (QUT)",
         "city": "Brisbane, Queensland",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 64,
         "name": "Ritsumeikan Asia Pacific University (APU)",
         "city": "Beppu, Oita",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 65,
         "name": "Royal Melbourne Institute of Technology (RMIT)",
         "city": "Hoi Chi Min City",
-        "country": "Vietnam"
+        "country": "Vietnam",
+        "flag": "🇻🇳"
     },
     {
         "id": 66,
         "name": "Royal Melbourne Institute of Technology (RMIT)",
         "city": "Melbourne, Victoria",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 67,
         "name": "RWTH Aachen University",
         "city": "Aachen",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 68,
         "name": "RWTH Aachen University",
         "city": "Aachen",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 69,
         "name": "University of Oulu",
         "city": "Oulu",
-        "country": "Finland"
+        "country": "Finland",
+        "flag": "🇫🇮"
     },
     {
         "id": 70,
         "name": "Seoul National University (SNU)",
         "city": "Seoul",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 71,
         "name": "Seoul National University (SNU)",
         "city": "Seoul",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     },
     {
         "id": 72,
         "name": "Singapore University of Technology and Design (SUTD)",
         "city": "Singapore",
-        "country": "Singapore"
+        "country": "Singapore",
+        "flag": "🇸🇬"
     },
     {
         "id": 73,
         "name": "Swansea University",
         "city": "Swansea",
-        "country": "Wales"
+        "country": "Wales",
+        "flag": "🏴"
     },
     {
         "id": 74,
         "name": "Swiss Federal Institute of Technology Lausanne (EPFL)",
         "city": "Lausanne",
-        "country": "Switzerland"
+        "country": "Switzerland",
+        "flag": "🇨🇭"
     },
     {
         "id": 75,
         "name": "Swiss Federal Institute of Technology Lausanne (EPFL)",
         "city": "Lausanne",
-        "country": "Switzerland"
+        "country": "Switzerland",
+        "flag": "🇨🇭"
     },
     {
         "id": 76,
         "name": "Tampere University",
         "city": "Tampere",
-        "country": "Finland"
+        "country": "Finland",
+        "flag": "🇫🇮"
     },
     {
         "id": 77,
         "name": "Technical University of Braunschweig (TUB)",
         "city": "Braunschweig",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 78,
         "name": "Technical University of Denmark (DTU)",
         "city": "Lyngby",
-        "country": "Denmark"
+        "country": "Denmark",
+        "flag": "🇩🇰"
     },
     {
         "id": 79,
         "name": "Technical University of Munich (TUM)",
         "city": "Munich",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 80,
         "name": "Chinese University of Hong Kong (CUHK)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 81,
         "name": "Hong Kong Polytechnic University (Poly U)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 82,
         "name": "Hong Kong University of Science and Technology (HKUST)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 83,
         "name": "Hong Kong University of Science and Technology (HKUST)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 84,
         "name": "University of Hong Kong (HKU)",
         "city": "Hong Kong",
-        "country": "Hong Kong SAR China"
+        "country": "Hong Kong SAR China",
+        "flag": "🇭🇰"
     },
     {
         "id": 85,
         "name": "University of Queensland (UQ)",
         "city": "Brisbane, Queensland",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 86,
         "name": "The University of the West Indies",
         "city": "Bridgetown",
-        "country": "Barbados"
+        "country": "Barbados",
+        "flag": "🇧🇧"
     },
     {
         "id": 87,
         "name": "The University of the West Indies",
         "city": "Kingston",
-        "country": "Jamaica"
+        "country": "Jamaica",
+        "flag": "🇯🇲"
     },
     {
         "id": 88,
         "name": "The University of the West Indies",
         "city": "St. Augustine",
-        "country": "Trinidad and Tobago"
+        "country": "Trinidad and Tobago",
+        "flag": "🇹🇹"
     },
     {
         "id": 89,
         "name": "University of Warwick",
         "city": "Warwick",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 90,
         "name": "University of Western Australia (UWA)",
         "city": "Crawley, Perth, Western Australia",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 91,
         "name": "Tilburg University",
         "city": "Tilburg",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "flag": "🇳🇱"
     },
     {
         "id": 92,
         "name": "Tohoku University",
         "city": "Sendai",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 93,
         "name": "Tohoku University",
         "city": "Sendai",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 94,
         "name": "Tohoku University",
         "city": "Sendai",
-        "country": "Japan"
+        "country": "Japan",
+        "flag": "🇯🇵"
     },
     {
         "id": 95,
         "name": "Trinity College Dublin",
         "city": "Dublin",
-        "country": "Ireland"
+        "country": "Ireland",
+        "flag": "🇮🇪"
     },
     {
         "id": 96,
         "name": "Tsinghua University",
         "city": "Beijing",
-        "country": "China"
+        "country": "China",
+        "flag": "🇨🇳"
     },
     {
         "id": 97,
         "name": "Delft University of Technology",
         "city": "Delft",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "flag": "🇳🇱"
     },
     {
         "id": 98,
         "name": "University of Ulster",
         "city": "Ulster",
-        "country": "Northern Ireland"
+        "country": "Northern Ireland",
+        "flag": "🇬🇧"
     },
     {
         "id": 99,
         "name": "University College London (UCL)",
         "city": "London",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 100,
         "name": "University College London (UCL)",
         "city": "London",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 101,
         "name": "University of Bamberg",
         "city": "Bamberg",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 102,
         "name": "University of Bergen",
         "city": "Bergen",
-        "country": "Norway"
+        "country": "Norway",
+        "flag": "🇳🇴"
     },
     {
         "id": 103,
         "name": "University of Birmingham",
         "city": "Birmingham",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 104,
         "name": "University of Bristol",
         "city": "Bristol",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 105,
         "name": "University of Dundee",
         "city": "Dundee",
-        "country": "Scotland"
+        "country": "Scotland",
+        "flag": "🏴"
     },
     {
         "id": 106,
         "name": "University of Exeter",
         "city": "Exeter",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 107,
         "name": "University of Graz",
         "city": "Graz",
-        "country": "Austria"
+        "country": "Austria",
+        "flag": "🇦🇹"
     },
     {
         "id": 108,
         "name": "University of Helsinki",
         "city": "Helsinki",
-        "country": "Finland"
+        "country": "Finland",
+        "flag": "🇫🇮"
     },
     {
         "id": 109,
         "name": "University of Jena",
         "city": "Jena",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 110,
         "name": "University of Konstanz",
         "city": "Konstanz",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 111,
         "name": "University of Lausanne (UNIL)",
         "city": "Lausanne",
-        "country": "Switzerland"
+        "country": "Switzerland",
+        "flag": "🇨🇭"
     },
     {
         "id": 112,
         "name": "University of Lausanne (UNIL)",
         "city": "Lausanne",
-        "country": "Switzerland"
+        "country": "Switzerland",
+        "flag": "🇨🇭"
     },
     {
         "id": 113,
         "name": "University of Leeds",
         "city": "Leeds",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 114,
         "name": "University of Liverpool",
         "city": "Liverpool",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 115,
         "name": "University of Mannheim",
         "city": "Mannheim",
-        "country": "Germany"
+        "country": "Germany",
+        "flag": ""
     },
     {
         "id": 116,
         "name": "University of Nantes",
         "city": "Nantes",
-        "country": "France"
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 117,
         "name": "University of Navarra",
         "city": "Navarra",
-        "country": "Spain"
+        "country": "Spain",
+        "flag": "🇪🇸"
     },
     {
         "id": 118,
         "name": "University of New South Wales (UNSW)",
         "city": "Sydney",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 119,
         "name": "University of Oulu",
         "city": "Oulu",
-        "country": "Finland"
+        "country": "Finland",
+        "flag": "🇫🇮"
     },
     {
         "id": 120,
         "name": "University of Sheffield",
         "city": "Sheffield",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 121,
         "name": "University of Southern Denmark (SDU)",
         "city": "Sonderborg, Odense, Slagelse, Esbjerg, Kolding",
-        "country": "Denmark"
+        "country": "Denmark",
+        "flag": "🇩🇰"
     },
     {
         "id": 122,
         "name": "University of Strathclyde",
         "city": "Glasgow",
-        "country": "Scotland"
+        "country": "Scotland",
+        "flag": "🏴"
     },
     {
         "id": 123,
         "name": "University of Sussex",
         "city": "Sussex",
-        "country": "England"
+        "country": "England",
+        "flag": "🇬🇧"
     },
     {
         "id": 124,
-        "name": "University of Technology of Compi\u00e8gne (UTC)",
-        "city": "Compi\u00e8gne ",
-        "country": "France"
+        "name": "University of Technology of Compiègne (UTC)",
+        "city": "Compiègne ",
+        "country": "France",
+        "flag": "🇫🇷"
     },
     {
         "id": 125,
         "name": "University of Technology Sydney (UTS)",
         "city": "Sydney, New South Wales",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 126,
         "name": "University of Turin",
         "city": "Turin",
-        "country": "Italy"
+        "country": "Italy",
+        "flag": "🇮🇹"
     },
     {
         "id": 127,
         "name": "University of Wollongong",
         "city": "Wollongong, New South Wales",
-        "country": "Australia"
+        "country": "Australia",
+        "flag": "🇦🇺"
     },
     {
         "id": 128,
-        "name": "Xi\u2019an Jiaotong- Liverpool University",
+        "name": "Xi’an Jiaotong- Liverpool University",
         "city": "Suzhou",
-        "country": "China"
+        "country": "China",
+        "flag": "🇨🇳"
     },
     {
         "id": 129,
         "name": "Yeditepe University",
         "city": "Istanbul",
-        "country": "Turkey"
+        "country": "Turkey",
+        "flag": "🇹🇷"
     },
     {
         "id": 130,
         "name": "Yonsei University",
         "city": "Seoul",
-        "country": "South Korea"
+        "country": "South Korea",
+        "flag": "🇰🇷"
     }
 ]

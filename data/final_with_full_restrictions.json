@@ -1,0 +1,943 @@
+{
+    "0": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=ee5205b3af0af11593174a0f82367ed1"
+            },
+            {
+                "tag": "Go Abroad",
+                "url": "https://uwaterloo.ca/international/go-abroad"
+            },
+            {
+                "tag": "Research Laboratories",
+                "url": "https://www.polytechnique.edu/en/research/laboratories"
+            }
+        ],
+        "name": "\u00c9cole Polytechnique - International Internship Program",
+        "studyTerms": [
+            "Spring"
+        ],
+        "openTo": [
+            "Environment",
+            "Mathematics",
+            "Science"
+        ],
+        "academicLevels": [
+            "Undergraduate",
+            "Graduate"
+        ],
+        "location": "Palaiseau, France",
+        "likeliness": {
+            "tier": "Moderate",
+            "spots": 0
+        },
+        "termDates": [
+            {
+                "term": "Spring",
+                "startMonth": "May",
+                "endMonth": "December"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Internship does not provide course credit"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "graduate": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Internship does not provide course credit"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "general": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=ee5205b3af0af11593174a0f82367ed1"
+                    },
+                    {
+                        "tag": "Go Abroad",
+                        "url": "https://uwaterloo.ca/international/go-abroad"
+                    },
+                    {
+                        "tag": "Research Laboratories",
+                        "url": "https://www.polytechnique.edu/en/research/laboratories"
+                    },
+                    {
+                        "tag": "Course Selection",
+                        "url": "https://programmes.polytechnique.edu/en/exchange-programs/research-program-for-international-talents/program-details"
+                    }
+                ],
+                "restrictions": [
+                    "Internship does not provide course credit"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "70%",
+                "other": [
+                    "Completion of 3rd or 4th year of undergraduate studies",
+                    "Consult co-op advisor if seeking co-op work term credit"
+                ]
+            },
+            "graduate": {
+                "minGrade": "75%",
+                "other": [
+                    "Enrollment in first or second year of Master\u2019s program"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Mandatory pre-departure training",
+                    "Travel safety review with Waterloo International"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                ""
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Financial Support",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/france"
+            }
+        ]
+    },
+    "1": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=144c7d21f65bb0e66ca665c141bdc8aa"
+            },
+            {
+                "tag": "Course List",
+                "url": "https://livecauac-my.sharepoint.com/personal/yejina_cau_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses%2F%28CAU%29%20AY23%2D24%20List%20of%20Courses%20Offered%2Epdf&parent=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses&ga=1"
+            }
+        ],
+        "name": "Chung-Ang University Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Spring"
+        ],
+        "openTo": [
+            "Health",
+            "Arts",
+            "Engineering",
+            "Environment",
+            "Mathematics",
+            "Science"
+        ],
+        "academicLevels": [
+            "Undergraduate",
+            "Graduate"
+        ],
+        "location": "Seoul, South Korea",
+        "likeliness": {
+            "tier": "Moderate",
+            "spots": 2
+        },
+        "termDates": [
+            {
+                "term": "Spring",
+                "startMonth": "March",
+                "endMonth": "June"
+            },
+            {
+                "term": "Fall",
+                "startMonth": "September",
+                "endMonth": "December"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "During initial registration, non-business majors cannot enroll in business courses",
+                    "Only art majors can enroll in art courses throughout all registration periods",
+                    "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
+                ],
+                "minCreditsPerTerm": "3-19 credits"
+            },
+            "graduate": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "During initial registration, non-business majors cannot enroll in business courses",
+                    "Only art majors can enroll in art courses throughout all registration periods",
+                    "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "general": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=144c7d21f65bb0e66ca665c141bdc8aa"
+                    },
+                    {
+                        "tag": "Course List",
+                        "url": "https://livecauac-my.sharepoint.com/personal/yejina_cau_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses%2F%28CAU%29%20AY23%2D24%20List%20of%20Courses%20Offered%2Epdf&parent=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses&ga=1"
+                    },
+                    {
+                        "tag": "Course Restrictions and Syllabus",
+                        "url": "http://cautis.cau.ac.kr/TIS/websquare/websquare.html?w2xPath=%2FTIS%2Fstd%2Fusk%2FsUskSif005_eng.xml"
+                    }
+                ],
+                "restrictions": [
+                    "During initial registration, non-business majors cannot enroll in business courses",
+                    "Only art majors can enroll in art courses throughout all registration periods",
+                    "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "70%",
+                "other": [
+                    "Completion of at least two years of university studies"
+                ]
+            },
+            "graduate": {
+                "minGrade": "75%",
+                "other": [
+                    "Active enrollment in a graduate program",
+                    "Good academic standing with B average (70-75%)"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Mandatory orientation before classes start"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": false,
+            "links": [
+                "https://ziptoss.com/en",
+                "https://www.nestpick.com/seoul/"
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Funding Information",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/south-korea"
+            }
+        ]
+    },
+    "2": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=2f8779f13e99360593f6be06e2ba0ff7"
+            }
+        ],
+        "name": "University College Dublin Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Winter"
+        ],
+        "openTo": [
+            "Health",
+            "Arts",
+            "Engineering",
+            "Environment",
+            "Mathematics",
+            "Science"
+        ],
+        "academicLevels": [
+            "Undergraduate",
+            "Graduate"
+        ],
+        "location": "Dublin, Ireland",
+        "likeliness": {
+            "tier": "Moderate",
+            "spots": 6
+        },
+        "termDates": [
+            {
+                "term": "Fall",
+                "startMonth": "September",
+                "endMonth": "January"
+            },
+            {
+                "term": "Winter",
+                "startMonth": "January",
+                "endMonth": "May"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Restricted: Health & Agricultural Sciences, Education, Psychology, Business, Law, English Literature",
+                    "Master's level courses are restricted in some fields like Chemistry and Neuroscience",
+                    "Science College restrictions include Geology, Chemistry, and Sustainability"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "graduate": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Restricted: Health & Agricultural Sciences, Education, Psychology, Business, Law, English Literature",
+                    "Master's level courses are restricted in some fields like Chemistry and Neuroscience",
+                    "Science College restrictions include Geology, Chemistry, and Sustainability"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "general": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=2f8779f13e99360593f6be06e2ba0ff7"
+                    },
+                    {
+                        "tag": "UCD Module Information",
+                        "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSESEARCH"
+                    }
+                ],
+                "restrictions": [
+                    "Restricted: Health & Agricultural Sciences, Education, Psychology, Business, Law, English Literature",
+                    "Master's level courses are restricted in some fields like Chemistry and Neuroscience",
+                    "Science College restrictions include Geology, Chemistry, and Sustainability"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "70%",
+                "other": [
+                    "Completion of at least first year of studies"
+                ]
+            },
+            "graduate": {
+                "minGrade": "75%",
+                "other": [
+                    "Active enrollment in graduate program"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Completion of mandatory pre-departure training"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                ""
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Funding",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/ireland"
+            }
+        ]
+    },
+    "3": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=e248a4db2efe136c36912c55961b8a45"
+            },
+            {
+                "tag": "Courses",
+                "url": "https://csw.aiu.ac.jp/campusweb/ex/en/syllabus"
+            }
+        ],
+        "name": "Akita International University Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Spring"
+        ],
+        "openTo": [
+            "Arts",
+            "Mathematics"
+        ],
+        "academicLevels": [
+            "Undergraduate"
+        ],
+        "location": "Akita, Japan",
+        "likeliness": {
+            "tier": "Lowest",
+            "spots": 2
+        },
+        "termDates": [
+            {
+                "term": "Spring",
+                "startMonth": "April",
+                "endMonth": "July"
+            },
+            {
+                "term": "Fall",
+                "startMonth": "September",
+                "endMonth": "December"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Courses available in Japanese; enrollment in Japanese language courses through Renison College"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "graduate": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Courses available in Japanese; enrollment in Japanese language courses through Renison College"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "general": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=e248a4db2efe136c36912c55961b8a45"
+                    },
+                    {
+                        "tag": "Courses",
+                        "url": "https://csw.aiu.ac.jp/campusweb/ex/en/syllabus"
+                    },
+                    {
+                        "tag": "Academic Calendar and Courses",
+                        "url": "http://www.aiu.ac.jp/international/en/in/academic/"
+                    }
+                ],
+                "restrictions": [
+                    "Courses available in Japanese; enrollment in Japanese language courses through Renison College"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "70%",
+                "other": [
+                    "Completion of at least two years of studies"
+                ]
+            },
+            "graduate": {
+                "minGrade": "",
+                "other": [
+                    "Completion of at least two years of studies"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Orientation week before classes begin"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                "https://web.aiu.ac.jp/en/campuslife/housing/"
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Funding",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/japan"
+            }
+        ]
+    },
+    "4": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=db189f3cda8bd5ec848ffdad9c4349d4"
+            }
+        ],
+        "name": "American College of Greece Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Winter"
+        ],
+        "openTo": [
+            "Arts"
+        ],
+        "academicLevels": [
+            "Undergraduate",
+            "Graduate"
+        ],
+        "location": "Athens, Greece",
+        "likeliness": {
+            "tier": "Moderate",
+            "spots": 2
+        },
+        "termDates": [
+            {
+                "term": "Fall",
+                "startMonth": "Mid-September",
+                "endMonth": "December"
+            },
+            {
+                "term": "Winter",
+                "startMonth": "Mid-January",
+                "endMonth": "April"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Enrollment limited to the School of Liberal Arts and Sciences or Fine and Performing Arts",
+                    "Must complete a minimum of 15 credits per semester"
+                ],
+                "minCreditsPerTerm": "15 credits"
+            },
+            "graduate": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Enrollment limited to the School of Liberal Arts and Sciences or Fine and Performing Arts",
+                    "Must complete a minimum of 15 credits per semester"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "general": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=db189f3cda8bd5ec848ffdad9c4349d4"
+                    },
+                    {
+                        "tag": "ACG Course Search",
+                        "url": "https://www.acg.edu/dereeacg/course_search.php"
+                    }
+                ],
+                "restrictions": [
+                    "Enrollment limited to the School of Liberal Arts and Sciences or Fine and Performing Arts",
+                    "Must complete a minimum of 15 credits per semester"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "70%",
+                "other": [
+                    "Completion of at least two years of studies"
+                ]
+            },
+            "graduate": {
+                "minGrade": "",
+                "other": [
+                    "Completion of at least two years of studies"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Mandatory on-campus housing unless permission granted for off-campus"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                "https://www.acg.edu/admissions/study-abroad/housing-at-acg/"
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Funding",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/greece"
+            }
+        ]
+    },
+    "5": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=01cd02ead46370003adc3e1272a1a5bd"
+            }
+        ],
+        "name": "Australian National University Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Winter"
+        ],
+        "openTo": [
+            "Health",
+            "Arts",
+            "Engineering",
+            "Environment",
+            "Mathematics",
+            "Science"
+        ],
+        "academicLevels": [
+            "Undergraduate",
+            "Graduate"
+        ],
+        "location": "Canberra, Australia",
+        "likeliness": {
+            "tier": "Moderate",
+            "spots": 6
+        },
+        "termDates": [
+            {
+                "term": "Winter",
+                "startMonth": "February",
+                "endMonth": "June"
+            },
+            {
+                "term": "Fall",
+                "startMonth": "July",
+                "endMonth": "November"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Specific prerequisites may be required for certain courses; consult ANU for details",
+                    "Mandatory orientation before classes start"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "graduate": {
+                "links": [
+                    ""
+                ],
+                "restrictions": [
+                    "Specific prerequisites may be required for certain courses; consult ANU for details",
+                    "Mandatory orientation before classes start"
+                ],
+                "minCreditsPerTerm": ""
+            },
+            "general": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=01cd02ead46370003adc3e1272a1a5bd"
+                    },
+                    {
+                        "tag": "ANU Programs and Courses",
+                        "url": "http://programsandcourses.anu.edu.au/"
+                    }
+                ],
+                "restrictions": [
+                    "Specific prerequisites may be required for certain courses; consult ANU for details",
+                    "Mandatory orientation before classes start"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "",
+                "other": [
+                    "Completion of at least two years of studies",
+                    "Good academic standing with B average (70-75%)"
+                ]
+            },
+            "graduate": {
+                "minGrade": "",
+                "other": [
+                    "Completion of at least two years of studies",
+                    "Good academic standing with B average (70-75%)"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Mandatory orientation prior to start of classes"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                "http://www.anu.edu.au/study/accommodation/cost-comparison"
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Funding",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/australia"
+            }
+        ]
+    },
+    "6": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=c2580dd5a25ee319b4de948f8de8952e"
+            },
+            {
+                "tag": "Bayes Course Modules",
+                "url": "https://www.city.ac.uk/prospective-students/apply/study-abroad/modules"
+            }
+        ],
+        "name": "Bayes Business School Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Winter"
+        ],
+        "openTo": [
+            "Mathematics"
+        ],
+        "academicLevels": [
+            "Undergraduate"
+        ],
+        "location": "London, England",
+        "likeliness": {
+            "tier": "Moderate",
+            "spots": 1
+        },
+        "termDates": [
+            {
+                "term": "Fall",
+                "startMonth": "September",
+                "endMonth": "January"
+            },
+            {
+                "term": "Winter",
+                "startMonth": "January",
+                "endMonth": "June"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=c2580dd5a25ee319b4de948f8de8952e"
+                    },
+                    {
+                        "tag": "Bayes Course Modules",
+                        "url": "https://www.city.ac.uk/prospective-students/apply/study-abroad/modules"
+                    }
+                ],
+                "restrictions": [
+                    "Exchange limited to modules starting with: AF, AS, BM, BS, FR, IF, MS",
+                    "Cultural modules available: Performing Arts in London, Historic London, European Business Culture"
+                ]
+            },
+            "graduate": {
+                "links": [
+                    {
+                        "tag": "Bayes Course Modules",
+                        "url": "https://www.city.ac.uk/prospective-students/apply/study-abroad/modules"
+                    }
+                ],
+                "restrictions": [
+                    "Exchange limited to modules starting with: AF, AS, BM, BS, FR, IF, MS",
+                    "Cultural modules available: Performing Arts in London, Historic London, European Business Culture"
+                ]
+            },
+            "general": {
+                "links": [],
+                "restrictions": [
+                    "Exchange limited to modules starting with: AF, AS, BM, BS, FR, IF, MS",
+                    "Cultural modules available: Performing Arts in London, Historic London, European Business Culture"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "75%",
+                "other": [
+                    "Completion of two years of university studies"
+                ]
+            },
+            "graduate": {
+                "minGrade": "",
+                "other": [
+                    "Completion of two years of university studies"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Mandatory orientation before classes begin"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                "https://www.city.ac.uk/accommodation/undergraduate/international-and-exchange-students"
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Funding Information",
+                "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/united-kingdom"
+            }
+        ]
+    },
+    "7": {
+        "links": [
+            {
+                "tag": "Program Details",
+                "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=cd82edb4b7fe836aec2101624202d86b"
+            },
+            {
+                "tag": "UC3M Course Offerings",
+                "url": "http://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/TextoMixta/1371220461773/"
+            }
+        ],
+        "name": "Charles III University of Madrid Exchange Program",
+        "studyTerms": [
+            "Fall",
+            "Winter"
+        ],
+        "openTo": [
+            "Health",
+            "Arts",
+            "Engineering",
+            "Environment",
+            "Mathematics",
+            "Science"
+        ],
+        "academicLevels": [
+            "Undergraduate",
+            "Graduate"
+        ],
+        "location": "Madrid, Spain",
+        "likeliness": {
+            "tier": "Low",
+            "spots": 50
+        },
+        "termDates": [
+            {
+                "term": "Fall",
+                "startMonth": "September",
+                "endMonth": "January"
+            },
+            {
+                "term": "Winter",
+                "startMonth": "January",
+                "endMonth": "June"
+            }
+        ],
+        "courses": {
+            "undergrad": {
+                "links": [
+                    {
+                        "tag": "Program Details",
+                        "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=cd82edb4b7fe836aec2101624202d86b"
+                    },
+                    {
+                        "tag": "UC3M Course Offerings",
+                        "url": "http://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/TextoMixta/1371220461773/"
+                    }
+                ],
+                "restrictions": [
+                    "Students can apply to any faculty, subject to restrictions; no guarantee for specific courses",
+                    "Students recommended to focus on Getafe and Legan\u00e9s campuses"
+                ]
+            },
+            "graduate": {
+                "links": [
+                    {
+                        "tag": "UC3M Course Offerings",
+                        "url": "http://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/TextoMixta/1371220461773/"
+                    }
+                ],
+                "restrictions": [
+                    "Students can apply to any faculty, subject to restrictions; no guarantee for specific courses",
+                    "Students recommended to focus on Getafe and Legan\u00e9s campuses"
+                ]
+            },
+            "general": {
+                "links": [],
+                "restrictions": [
+                    "Students can apply to any faculty, subject to restrictions; no guarantee for specific courses",
+                    "Students recommended to focus on Getafe and Legan\u00e9s campuses"
+                ]
+            }
+        },
+        "requirements": {
+            "undergrad": {
+                "minGrade": "70%",
+                "other": [
+                    "Completion of two years of studies",
+                    "Good academic standing (B average or better)"
+                ]
+            },
+            "graduate": {
+                "minGrade": "",
+                "other": [
+                    "Completion of two years of studies",
+                    "Good academic standing (B average or better)"
+                ]
+            },
+            "other": {
+                "requirementList": [
+                    "Mandatory pre-departure training"
+                ]
+            }
+        },
+        "accommodation": {
+            "accommodationOffered": true,
+            "links": [
+                "https://www.uc3m.es/studies/international-exchange-students-in-UC3M-/bachelor-degrees"
+            ]
+        },
+        "otherInfo": [
+            {
+                "tag": "Erasmus+ Funding",
+                "url": "https://www.uc3m.es/uc3m/media/uc3m/doc/archivo/en-doc_calendarioacademico23_24_92581.../academic-year_2023-2024_bachelor-degree-3-1.pdf"
+            },
+            {
+                "tag": "Travel Advisory",
+                "url": "https://travel.gc.ca/destinations/spain"
+            }
+        ]
+    }
+}

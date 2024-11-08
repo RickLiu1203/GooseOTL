@@ -1,0 +1,128 @@
+{
+    "links": [
+        {
+            "tag": "Program Details",
+            "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=144c7d21f65bb0e66ca665c141bdc8aa"
+        },
+        {
+            "tag": "Course List",
+            "url": "https://livecauac-my.sharepoint.com/personal/yejina_cau_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses%2F%28CAU%29%20AY23%2D24%20List%20of%20Courses%20Offered%2Epdf&parent=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses&ga=1"
+        }
+    ],
+    "name": "Chung-Ang University Exchange Program",
+    "studyTerms": [
+        "Fall",
+        "Spring"
+    ],
+    "openTo": [
+        "Health",
+        "Arts",
+        "Engineering",
+        "Environment",
+        "Mathematics",
+        "Science"
+    ],
+    "academicLevels": [
+        "Undergraduate",
+        "Graduate"
+    ],
+    "location": "Seoul, South Korea",
+    "likeliness": {
+        "tier": "Moderate",
+        "spots": 2
+    },
+    "termDates": [
+        {
+            "term": "Spring",
+            "startMonth": "March",
+            "endMonth": "June"
+        },
+        {
+            "term": "Fall",
+            "startMonth": "September",
+            "endMonth": "December"
+        }
+    ],
+    "courses": {
+        "undergrad": {
+            "links": [
+                ""
+            ],
+            "restrictions": [
+                "During initial registration, non-business majors cannot enroll in business courses",
+                "Only art majors can enroll in art courses throughout all registration periods",
+                "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
+            ],
+            "minCreditsPerTerm": "3-19 credits"
+        },
+        "graduate": {
+            "links": [
+                ""
+            ],
+            "restrictions": [
+                "During initial registration, non-business majors cannot enroll in business courses",
+                "Only art majors can enroll in art courses throughout all registration periods",
+                "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
+            ],
+            "minCreditsPerTerm": ""
+        },
+        "general": {
+            "links": [
+                {
+                    "tag": "Program Details",
+                    "url": "https://uwaterloo-horizons.symplicity.com/index.php?s=programs&mode=form&id=144c7d21f65bb0e66ca665c141bdc8aa"
+                },
+                {
+                    "tag": "Course List",
+                    "url": "https://livecauac-my.sharepoint.com/personal/yejina_cau_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses%2F%28CAU%29%20AY23%2D24%20List%20of%20Courses%20Offered%2Epdf&parent=%2Fpersonal%2Fyejina%5Fcau%5Fac%5Fkr%2FDocuments%2F2024%2D1%ED%95%99%EA%B8%B0%2FCourses&ga=1"
+                },
+                {
+                    "tag": "Course Restrictions and Syllabus",
+                    "url": "http://cautis.cau.ac.kr/TIS/websquare/websquare.html?w2xPath=%2FTIS%2Fstd%2Fusk%2FsUskSif005_eng.xml"
+                }
+            ],
+            "restrictions": [
+                "During initial registration, non-business majors cannot enroll in business courses",
+                "Only art majors can enroll in art courses throughout all registration periods",
+                "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
+            ]
+        }
+    },
+    "requirements": {
+        "undergrad": {
+            "minGrade": "70%",
+            "other": [
+                "Completion of at least two years of university studies"
+            ]
+        },
+        "graduate": {
+            "minGrade": "75%",
+            "other": [
+                "Active enrollment in a graduate program",
+                "Good academic standing with B average (70-75%)"
+            ]
+        },
+        "other": {
+            "requirementList": [
+                "Mandatory orientation before classes start"
+            ]
+        }
+    },
+    "accommodation": {
+        "accommodationOffered": false,
+        "links": [
+            "https://ziptoss.com/en",
+            "https://www.nestpick.com/seoul/"
+        ]
+    },
+    "otherInfo": [
+        {
+            "tag": "Funding Information",
+            "url": "https://uwaterloo.ca/student-awards-financial-aid/undergraduate-awards"
+        },
+        {
+            "tag": "Travel Advisory",
+            "url": "https://travel.gc.ca/destinations/south-korea"
+        }
+    ]
+}

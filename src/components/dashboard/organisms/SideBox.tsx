@@ -16,7 +16,7 @@ function SideBox() {
     };
 
     return (
-        <div className={`flex flex-col items-center bg-white h-full overflow-y-scroll no-scrollbar relative ${focused ? "w-3/10" : "w-1/4"}`}>
+        <div className={`flex flex-col items-center bg-white h-full overflow-y-scroll no-scrollbar relative transition-all duration-300 ${focused ? "w-4/10" : "w-1/4"}`}>
             {focused ? (
                 <FocusInfo schoolData={detailedData} />
             ) : (

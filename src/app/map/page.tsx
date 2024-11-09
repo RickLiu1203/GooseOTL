@@ -6,7 +6,7 @@ import { FocusProvider } from '@/providers/FocusProvider'
 import React from 'react'
 
 import { Albert_Sans } from 'next/font/google';
-import Head from 'next/head';
+import MapboxView from '@/components/dashboard/organisms/MapboxView'
 
 const albertSans = Albert_Sans({
   subsets: ['latin'],
@@ -21,6 +21,7 @@ function Dashboard() {
           <Navbar />
           <div className='flex flex-row w-full h-[92%]'>
             <SideBox />
+            <MapboxView />
           </div>
         </div>
       </div>

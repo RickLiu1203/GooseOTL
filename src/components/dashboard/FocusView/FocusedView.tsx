@@ -3,13 +3,13 @@
 import { useState, useEffect } from 'react'
 import { json } from 'stream/consumers';
 import { useFocusContext } from '../../../providers/FocusProvider'
-import FocusTitle from '../molecules/FocusTitle';
-import FocusSubtitles from '../molecules/FocusSubtitles';
-import FocusFaculties from '../molecules/FocusFaculties';
-import PageSpacer from '../atoms/FocusView/PageSpacer';
-import HeaderImage from '../atoms/FocusView/HeaderImage';
-import BackButton from '../atoms/FocusView/BackButton';
-import FocusTextList from '../molecules/FocusTextList';
+import FocusTitle from './Molecules/FocusTitle';
+import FocusSubtitles from './Molecules/FocusSubtitles';
+import FocusFaculties from './Molecules/FocusFaculties';
+import PageSpacer from './Atoms/PageSpacer';
+import HeaderImage from './Atoms/HeaderImage';
+import BackButton from './Atoms/BackButton';
+import FocusTextList from './Molecules/FocusTextList';
 
 interface Props {
     schoolData: Record<string, any>;

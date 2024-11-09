@@ -1,5 +1,5 @@
 import React from 'react'
-import SubtitleItem from '../atoms/FocusView/SubtitleItem';
+import SubtitleItem from '../Atoms/SubtitleItem';
 import { IoLocationOutline, IoSchoolOutline, IoCalendarClearOutline } from "react-icons/io5";
 
 interface Props{

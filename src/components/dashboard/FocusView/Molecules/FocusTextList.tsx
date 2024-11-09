@@ -1,5 +1,5 @@
 import React from 'react'
-import TextListItem from '../atoms/FocusView/TextListItem'
+import TextListItem from '../Atoms/TextListItem'
 
 function FocusTextList({}) {
     return (

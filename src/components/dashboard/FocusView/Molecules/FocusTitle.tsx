@@ -1,5 +1,5 @@
 import React from 'react'
-import SpotsIndicator from '../atoms/FocusView/SpotsIndicator';
+import SpotsIndicator from '../Atoms/SpotsIndicator';
 
 interface Props{
     school: string;

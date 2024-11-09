@@ -1,8 +1,9 @@
 // SearchList.tsx
 'use client';
 
-import { ChangeEvent } from 'react';
-import ListBox from '../molecules/ListBox';
+import { ChangeEvent, useState } from 'react';
+import SearchBar from './Atoms/SearchBar';
+import ListBox from './Molecules/SearchListBox';
 
 interface SchoolBasicData {
     id: number;
@@ -14,11 +15,15 @@ interface SchoolBasicData {
 
 interface Props {
     schoolBasicData: SchoolBasicData[];
-    searchString: string;
-    onSearchChange: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
-const SearchList = ({ schoolBasicData, searchString, onSearchChange }: Props) => {
+const SearchList = ({schoolBasicData}: Props) => {
+    const [searchString, setSearchString] = useState<string>('');
+
+    const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setSearchString(e.target.value);
+    };
+
     const filteredData = schoolBasicData.filter((schoolBasicData: SchoolBasicData) => {
         const searchLower = searchString.toLowerCase();
         if (searchLower.length >= 3) {
@@ -31,15 +36,9 @@ const SearchList = ({ schoolBasicData, searchString, onSearchChange }: Props) =>
     });
 
     return (
-        <>
-            <input 
-                className='border-black border-2 text-black placeholder-black w-full mb-4' 
-                type='text' 
-                value={searchString} 
-                placeholder="Where to?"
-                onChange={onSearchChange} 
-            />
-            <ul className='flex flex-col items-center gap-4 w-full pt-1'>
+        <div className='w-full'>
+            <SearchBar searchString={searchString} onSearchChange={handleInputChange} />
+            <ul className='flex flex-col items-center gap-4 w-full pt-20'>
                 {filteredData.map((schoolBasicData: SchoolBasicData) => (
                     <ListBox 
                         key={schoolBasicData.id}
@@ -50,7 +49,7 @@ const SearchList = ({ schoolBasicData, searchString, onSearchChange }: Props) =>
                     />
                 ))}
             </ul>
-        </>
+        </div>
     );
 };
 

@@ -1,12 +1,12 @@
-import MapComponent from '@/components/dashboard/organisms/MapComponent'
-import SearchList from '@/components/dashboard/organisms/SearchList'
-import SideBox from '@/components/dashboard/organisms/SideBox'
+import MapComponent from '@/components/dashboard/MapComponent'
+import SearchList from '@/components/dashboard/SearchList/SearchList'
+import SideBox from '@/components/dashboard/SideBox'
 import Navbar from '@/components/Navbar'
 import { FocusProvider } from '@/providers/FocusProvider'
 import React from 'react'
 
 import { Albert_Sans } from 'next/font/google';
-import MapboxView from '@/components/dashboard/organisms/MapboxView'
+import MapboxView from '@/components/dashboard/MapboxView'
 
 const albertSans = Albert_Sans({
   subsets: ['latin'],

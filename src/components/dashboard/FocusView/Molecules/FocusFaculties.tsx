@@ -1,5 +1,5 @@
 import React from 'react'
-import FacultyTag from '../atoms/FocusView/FacultyTag';
+import FacultyTag from '../Atoms/FacultyTag';
 
 interface Props{
     faculties: string[];

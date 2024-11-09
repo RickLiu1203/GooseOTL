@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef, useEffect } from 'react';
-import { useFocusContext } from '../../../providers/FocusProvider';
+import { useFocusContext } from '../../providers/FocusProvider';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 

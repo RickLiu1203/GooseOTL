@@ -54,10 +54,9 @@
                 "Exchange students wishing to take courses in Architecture/Building Science must meet specific prerequisites and their home university must be accredited for Architecture"
             ],
             "minCreditsPerTerm": "3-19 credits"
-        },
+        }, 
         "graduate": {
-            "links": [
-                ""
+            "links": [  
             ],
             "restrictions": [
                 "During initial registration, non-business majors cannot enroll in business courses",

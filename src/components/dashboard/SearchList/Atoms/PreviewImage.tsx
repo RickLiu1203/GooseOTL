@@ -8,8 +8,7 @@ function PreviewImage() {
         alt="School Image"
         width={400}
         height={40}
-        priority
-        className='w-full h-4/10 object-cover'
+        className='absolute top-0 left-0 h-full w-1/3 object-cover rounded-l-xl'
         />
   )
 }

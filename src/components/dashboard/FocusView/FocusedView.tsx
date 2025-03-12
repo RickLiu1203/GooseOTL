@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react'
-import { json } from 'stream/consumers';
 import { useFocusContext } from '../../../providers/FocusProvider'
 import FocusTitle from './Molecules/FocusTitle';
 import FocusSubtitles from './Molecules/FocusSubtitles';

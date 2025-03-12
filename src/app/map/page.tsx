@@ -1,7 +1,7 @@
 import MapComponent from '@/components/dashboard/MapComponent'
 import SearchList from '@/components/dashboard/SearchList/SearchList'
 import SideBox from '@/components/dashboard/SideBox'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar/Navbar'
 import { FocusProvider } from '@/providers/FocusProvider'
 import React from 'react'
 
@@ -18,10 +18,12 @@ function Dashboard() {
     <FocusProvider>
       <div className={albertSans.className}>
         <div className='flex flex-col w-full h-screen'>
-          <Navbar />
-          <div className='flex flex-row w-full h-[92%]'>
-            <SideBox />
-            <MapboxView />
+          <div className='flex flex-col w-full h-full bg-slate-100'>
+            <Navbar />
+            <div className='flex w-full h-9/10'>
+              <SideBox />
+              <MapboxView />
+            </div>
           </div>
         </div>
       </div>

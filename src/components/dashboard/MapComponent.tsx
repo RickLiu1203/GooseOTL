@@ -16,7 +16,7 @@ const center = {
 };
 
 const MapComponent = () => {
-  const googleMapsApiKey = process.env.NEXT_PUBLIC_MAPS_KEY || '';
+  const googleMapsApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || '';
   console.log(googleMapsApiKey)
 
   return (

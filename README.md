@@ -37,3 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 TODO:
 Explicit typing for detailed school data once json structure is finalized
+Wait for map to load to be able to change focus state (create context)

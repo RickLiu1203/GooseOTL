@@ -3,51 +3,105 @@
 
 import { ChangeEvent, useState } from 'react';
 import SearchBar from './Atoms/SearchBar';
-import ListBox from './Molecules/SearchListBox';
-
-interface SchoolBasicData {
-    id: number;
-    name: string;
-    city: string;
-    country: string;
-    flag: string;
-}
+import ListBox from './Molecules/ListBox';
 
 interface Props {
-    schoolBasicData: SchoolBasicData[];
+    schoolData: Record<string, any>;
 }
 
-const SearchList = ({schoolBasicData}: Props) => {
+const SearchList = ({schoolData}: Props) => {
     const [searchString, setSearchString] = useState<string>('');
+    
+    const subtitleData: {
+        location: string;
+        terms: string;
+        levels: string;
+    } = {
+        location: schoolData.location,
+        terms: schoolData.studyTerms.join(", "),
+        levels: schoolData.academicLevels.join(", "),
+    };
+    
 
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
         setSearchString(e.target.value);
     };
 
-    const filteredData = schoolBasicData.filter((schoolBasicData: SchoolBasicData) => {
-        const searchLower = searchString.toLowerCase();
-        if (searchLower.length >= 3) {
-            return (
-                schoolBasicData.name.toLowerCase().includes(searchLower) ||
-                schoolBasicData.city.toLowerCase().includes(searchLower) ||
-                schoolBasicData.country.toLowerCase().includes(searchLower)
-            );
-        }
-    });
+    // const filteredData = schoolData.filter((schoolData: Record<string, any>) => {
+    //     const searchLower = searchString.toLowerCase();
+    //     if (searchLower.length >= 3) {
+    //         return (
+    //             schoolData.name.toLowerCase().includes(searchLower) ||
+    //             schoolData.location.toLowerCase().includes(searchLower)
+    //         );
+    //     }
+    // });
 
     return (
-        <div className='w-full'>
+        <div className='flex flex-col items-center w-full h-full rounded-r-2xl relative'>
             <SearchBar searchString={searchString} onSearchChange={handleInputChange} />
-            <ul className='flex flex-col items-center gap-4 w-full pt-20'>
-                {filteredData.map((schoolBasicData: SchoolBasicData) => (
-                    <ListBox 
-                        key={schoolBasicData.id}
-                        id={schoolBasicData.id} 
-                        name={schoolBasicData.name}
-                        location={`${schoolBasicData.city}, ${schoolBasicData.country}`}
-                        flag={schoolBasicData.flag}
-                    />
-                ))}
+            <ul className='flex flex-col items-center gap-4 w-full pt-8 mt-24'>
+                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                                <ListBox 
+                    // key={schoolData.id}
+                    // id={schoolData.id} 
+                    name={schoolData.name}
+                    subtitleDataObj={subtitleData}
+                />
+                
             </ul>
         </div>
     );

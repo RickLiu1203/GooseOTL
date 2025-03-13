@@ -1,10 +1,10 @@
 'use client';
 
 import { useRef, useEffect } from 'react';
-import { useFocusContext } from '../../providers/FocusProvider';
+import { useFocusContext } from '../../../../providers/FocusProvider';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import {adjustPadding, adjustPitchOnZoom, flyIn, flyOut} from '../../helpers/mapHelper'
+import {adjustPadding, adjustPitchOnZoom, flyIn, flyOut} from '../../../../helpers/mapHelper'
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_KEY || '';
 
@@ -19,7 +19,7 @@ function MapboxView() {
         container: mapContainerRef.current,
         style: 'mapbox://styles/rickliu1203/cm3919cmp009401o1cd30dgfd?optimize=true',
         center: [-80.537331184, 43.467998128],
-        zoom: 16,
+        zoom: 10,
       });
 
       mapRef.current.addControl(new mapboxgl.NavigationControl());
@@ -34,7 +34,7 @@ function MapboxView() {
   useEffect(() => {
     const map = mapRef.current;
     const containerWidth: number = mapContainerRef.current?.offsetWidth || 0;
-    const padding: number = focused ? containerWidth * 0.1 : 0;
+    const padding: number = containerWidth * 0.1;
 
     adjustPadding({map, padding})
 
@@ -51,7 +51,7 @@ function MapboxView() {
   return (
     <div
       id="map-container"
-      className="flex flex-grow h-full bg-[#041629] relative rounded-r-2xl"
+      className="flex flex-grow h-full w-full bg-[#041629] relative rounded-r-2xl"
       ref={mapContainerRef}
     />
   );

@@ -129,13 +129,22 @@ export const adjustPitchOnZoom = (map: mapboxgl.Map | null) => {
       if (zoomTimeout) clearTimeout(zoomTimeout);
 
       zoomTimeout = setTimeout(() => {
-          lastPitch = newPitch; // Update the stored pitch
+          lastPitch = newPitch;
 
-          map.easeTo({
+          if (newPitch === 0){
+            map.easeTo({
+                pitch: newPitch,
+                bearing: 0,
+                duration: 500, // Smooth transition
+                easing: (t) => t,
+            });
+          } else {
+            map.easeTo({
               pitch: newPitch,
               duration: 500, // Smooth transition
               easing: (t) => t,
           });
+          }
 
           console.log(`Pitch transition triggered to: ${newPitch} at zoom level: ${currentZoom}`);
       }, 500);

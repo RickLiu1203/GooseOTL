@@ -38,9 +38,9 @@ const SearchList = ({schoolData}: Props) => {
     // });
 
     return (
-        <div className='flex flex-col items-center w-full h-full rounded-r-2xl relative'>
+        <div className='flex flex-col items-center w-full h-full rounded-r-2xl relative overflow-y-hidden'>
             <SearchBar searchString={searchString} onSearchChange={handleInputChange} />
-            <ul className='flex flex-col items-center gap-4 w-full pt-8 mt-24'>
+            <ul className='flex flex-col items-center gap-4 w-full h-full pt-8 overflow-y-auto'>
                 <ListBox 
                     // key={schoolData.id}
                     // id={schoolData.id} 

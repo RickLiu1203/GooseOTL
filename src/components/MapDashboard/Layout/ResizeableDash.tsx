@@ -6,12 +6,12 @@ import {
     ResizablePanelGroup,
   } from "@/components/ui/resizable"
 
-import SideBox from '../Atoms/SideBox'
-import MapboxView from '../Atoms/MapboxView'
+import SideBox from './Molecules/SideBox'
+import MapboxView from './Molecules/MapboxView'
 
 function ResizeableDash() {
   return (
-    <div className='flex w-full h-9/10'>
+    <div className='flex w-full h-full'>
         <ResizablePanelGroup
         direction="horizontal"
         className="w-full rounded-lg border"

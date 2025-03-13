@@ -5,6 +5,8 @@ import { useFocusContext } from '../../../../providers/FocusProvider';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import {adjustPadding, adjustPitchOnZoom, flyIn, flyOut} from '../../../../helpers/mapHelper'
+import Logo from '../Atoms/Logo';
+import Github from '../Atoms/Github';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_KEY || '';
 
@@ -49,11 +51,18 @@ function MapboxView() {
   }, [focused]);
 
   return (
-    <div
+    <div className='relative w-full h-full'>
+      <div
       id="map-container"
       className="flex flex-grow h-full w-full bg-[#041629] relative rounded-r-2xl"
       ref={mapContainerRef}
-    />
+      />
+      <div className='flex items-center absolute left-2 top-6 gap-2'>
+        <Logo />
+        <Github />
+      </div>
+    </div>
+
   );
 }
 

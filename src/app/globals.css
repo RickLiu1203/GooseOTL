@@ -14,10 +14,17 @@
 }
 
 .focus-spacer {
-  background-image: repeating-linear-gradient(90deg, #000000, #000000 12px, transparent 16px, transparent 24px);
+  background-image: repeating-linear-gradient(90deg, #000000, #000000 20px, transparent 0px, transparent 32px);
   background-position: left bottom;
   background-repeat: repeat-x;
   background-size: 100% 3px;
+}
+
+.filter-spacer {
+  background-image: repeating-linear-gradient(90deg, #000000, #000000 20px, transparent 0px, transparent 32px);
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
 }
 
 

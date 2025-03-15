@@ -61,7 +61,7 @@ function MapboxView({mapSize}: Props) {
     <div className='relative w-full h-full'>
       <div
       id="map-container"
-      className="flex flex-grow h-full w-full bg-[#041629] relative rounded-r-2xl"
+      className="flex flex-grow h-full w-full bg-[#041629] relative"
       ref={mapContainerRef}
       />
       <div className='flex h-full flex-col absolute left-4 top-6 gap-3'>

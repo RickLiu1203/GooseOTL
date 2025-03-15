@@ -30,7 +30,8 @@ function ResizeableDash() {
 
     debounceTimeout.current = setTimeout(() => {
       setNewMapSize(pixelSizes[1]); 
-    }, 25);
+      console.log('s')
+    }, 5);
 
     return () => {
       if (debounceTimeout.current) clearTimeout(debounceTimeout.current);

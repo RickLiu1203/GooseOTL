@@ -14,7 +14,7 @@ interface Props {
     schoolData: Record<string, any>;
 }
 
-function FocusInfo({ schoolData }: Props) {
+function FocusView({ schoolData }: Props) {
     const { setFocus, focusedId } = useFocusContext();
     const { focused } = useFocusContext();
 
@@ -52,7 +52,7 @@ function FocusInfo({ schoolData }: Props) {
                 <>
                     <HeaderImage />
                     <BackButton backClick={handleBackClick} />
-                    <div className='flex flex-col bg-white absolute w-full top-1/3 rounded-3xl p-10 gap-4'>
+                    <div className='flex flex-col bg-white absolute w-full top-1/3 p-10 gap-4'>
                         <FocusTitle school={schoolData.name} spotsObj={schoolData.likeliness}/>
                         <FocusSubtitles subtitleDataObj={subtitleData} />
                         <FocusFaculties faculties={schoolData.openTo} />
@@ -70,4 +70,4 @@ function FocusInfo({ schoolData }: Props) {
     )
 }
 
-export default FocusInfo
+export default FocusView

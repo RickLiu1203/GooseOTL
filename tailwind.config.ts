@@ -49,7 +49,12 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			'gooseBrown': '#99573e',
+			'gooseWhite': '#fbfae3',
+			'gooseBlack': '#251425',
+			'gooseMauve': '#805a59'
+			
   		},
   		width: {
   			'1/10': '10%',

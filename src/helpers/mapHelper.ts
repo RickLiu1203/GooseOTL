@@ -1,4 +1,8 @@
 // Helper functions for map functionalities
+import { MutableRefObject } from 'react';
+import mapboxgl from 'mapbox-gl';
+
+let resizeTimeout: NodeJS.Timeout;
 
 interface CoordinateInterface {
     map: mapboxgl.Map | null;
@@ -10,6 +14,58 @@ interface MapPaddingInterface{
     map: mapboxgl.Map | null;
     padding: number;
 }
+
+export function handleMapResize(
+    mapRef: MutableRefObject<mapboxgl.Map | null>, 
+    mapContainerRef: MutableRefObject<HTMLDivElement | null>
+  ) {
+    if (!mapRef.current || !mapContainerRef.current) return;
+  
+    const map = mapRef.current;
+    const container = mapContainerRef.current;
+  
+    // Use ResizeObserver for better resize detection
+    const resizeObserver = new ResizeObserver(() => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        if (!map || !container) return;
+  
+        map.resize(); // Ensure Mapbox resizes correctly
+  
+        const containerWidth = container.offsetWidth || 0;
+        const padding = containerWidth * 0.1; // Dynamic padding based on width
+  
+        adjustPadding({ map, padding }); // Update padding dynamically
+  
+        // Adjust zoom based on new width
+        let newZoom;
+        if (containerWidth < 500) {
+          newZoom = 9;
+        } else if (containerWidth < 800) {
+          newZoom = 10;
+        } else {
+          newZoom = 11;
+        }
+  
+        map.easeTo({
+          zoom: newZoom,
+          duration: 500,
+        });
+  
+        console.log(`Map resized: Width = ${containerWidth}px, New Zoom = ${newZoom}`);
+      }, 500);
+    });
+  
+    // Observe the map container for size changes
+    resizeObserver.observe(container);
+  
+    // Cleanup observer when component unmounts
+    return () => {
+      resizeObserver.disconnect();
+      if (resizeTimeout) clearTimeout(resizeTimeout);
+    };
+  }
+  
 
 // Controls flying into a location
 export const flyIn = ({map, latitude, longitude}: CoordinateInterface) => {
@@ -53,10 +109,10 @@ export const adjustPadding = ({map, padding}: MapPaddingInterface) => {
     if(map){
         map.flyTo({
             padding: {
-              left: 0,
-              right: padding,
-              top: 0,
-              bottom: 0,
+                left: 0,
+                right: padding,
+                top: 0,
+                bottom: 0,
             },
             duration: 500,
           });

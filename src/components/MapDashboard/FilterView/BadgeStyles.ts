@@ -7,3 +7,9 @@ export const facultyStyles: {[key: string]: string} = {
     "Environment": "bg-lime-50 text-lime-900 border-[1px] border-lime-900"
 };
 
+export const termStyles: {[key: string]: string} = {
+    "Fall": "bg-amber-50 text-amber-900 border-[1px] border-amber-900",
+    "Winter": "bg-sky-50 text-sky-900 border-[1px] border-sky-900",
+    "Spring/Summer": "bg-green-50 text-green-900 border-[1px] border-green-900",
+};
+

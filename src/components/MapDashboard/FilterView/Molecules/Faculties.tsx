@@ -51,7 +51,7 @@ function Faculties() {
     }, [facultySelection]);
 
     return (
-        <div className='flex flex-col w-full gap-4 pt-6'>
+        <div className='flex flex-col w-full gap-5 pt-6'>
             <div className='flex w-full justify-between items-center'>
                 <SectionTitle title={'Faculties'} icon={<PiGraduationCapFill size={20}/>}/>
                 <SelectAll selectAll={() => selectAllFaculties()} deselectAll={() => deselectAllFaculties()} count={selectedCount} mapLength={mapLength}/>

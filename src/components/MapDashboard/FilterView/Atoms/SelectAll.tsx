@@ -1,43 +1,34 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react';
 
-interface Props{
+interface Props {
     selectAll: () => void;
     deselectAll: () => void;
     count: number;
     mapLength: number;
 }
 
-function SelectAll({selectAll, deselectAll, count, mapLength}: Props) {
-    const [selectedAll, setSelectedAll] = useState<boolean>(false);
-    
+function SelectAll({ selectAll, deselectAll, count, mapLength }: Props) {
+    const allSelected = count === mapLength;
+
     const handleSelectAll = () => {
-        setSelectedAll(!selectedAll);
-    }
-
-    useEffect(() => {
-        if(count === mapLength){
-            setSelectedAll(true)
+        if (allSelected) {
+            deselectAll()
         } else {
-            setSelectedAll(false)
-        }
-    }, [count])
-
-    useEffect(() => {
-        if(selectedAll){
             selectAll();
-        } else if(count === mapLength){
-            deselectAll();
         }
-    }, [selectedAll])
+    };
 
-    const selectedStyle = 'bg-black text-white'
-    const unselectedStyle = 'bg-white text-black'
+    const selectedStyle = 'bg-black text-white';
+    const unselectedStyle = 'bg-white text-black';
 
     return (
-        <button onClick={handleSelectAll} className={`text-sm font-medium rounded-md px-2.5 py-1.5 shadow-sm ${selectedAll ? selectedStyle : unselectedStyle}`}>
-            {selectedAll ? 'Unselect All': 'Select All'}
+        <button 
+            onClick={handleSelectAll} 
+            className={`text-sm font-medium rounded-md px-2.5 py-1.5 shadow-sm ${allSelected ? selectedStyle : unselectedStyle}`}
+        >
+            {allSelected ? 'Unselect All' : 'Select All'}
         </button>
-    )
+    );
 }
 
-export default SelectAll
+export default SelectAll;

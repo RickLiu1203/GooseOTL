@@ -3,12 +3,17 @@ import SelectBadge from '../Atoms/SelectBadge';
 import { facultyStyles } from '../BadgeStyles';
 import SectionTitle from '../Atoms/SectionTitle';
 import FilterSpacer from '../Atoms/FilterSpacer';
-import SelectAll from '../Atoms/SelectAll';
-import { selectAll, deselectAll } from '../FilterHelpers';
+import { unselectAllHelper } from '../FilterHelpers';
+import UnselectAll from '../Atoms/UnselectAll';
 
-import { PiGraduationCapFill } from "react-icons/pi";
+import { PiBooks } from "react-icons/pi";
 
-function Faculties() {
+interface Props{
+    handleUpdate: (category: string, newArray: string[], counter: number) => void;
+    parentCount: number;
+}
+
+function Faculties({handleUpdate, parentCount}: Props) {
 
     interface Faculties {
         [key: string]: boolean;
@@ -26,8 +31,6 @@ function Faculties() {
     const [facultySelection, setFacultySelection] = useState<Faculties>(initialFaculties);
     const [selectedCount, setSelectedCount] = useState<number>(0);
 
-    const mapLength = Object.keys(facultySelection).length;
-
     const toggleFaculty = (faculty: string) => {
         facultySelection[faculty] ? setSelectedCount(prevCount => prevCount - 1) : setSelectedCount(prevCount => prevCount + 1)
         setFacultySelection(prev => ({
@@ -36,25 +39,27 @@ function Faculties() {
         }));
     };
 
-    const selectAllFaculties = () => {
-        setFacultySelection(selectAll(facultySelection));
-        setSelectedCount(mapLength);
-    }
-
-    const deselectAllFaculties = () => {
-        setFacultySelection(deselectAll(facultySelection));
+    const unselectAllFaculties = () => {
+        setFacultySelection(unselectAllHelper(facultySelection));
         setSelectedCount(0);
     }
 
     useEffect(() => {
-        console.log(facultySelection);
+        const trueFaculties = Object.keys(facultySelection).filter(faculty => facultySelection[faculty]);
+        handleUpdate('faculties', trueFaculties, selectedCount)
     }, [facultySelection]);
 
+    useEffect(() => {
+        if(parentCount === 0){
+            unselectAllFaculties();
+        }
+    }, [parentCount])
+
     return (
-        <div className='flex flex-col w-full gap-5 pt-6'>
+        <div className='flex flex-col w-full gap-8 pt-8'>
             <div className='flex w-full justify-between items-center'>
-                <SectionTitle title={'Faculties'} icon={<PiGraduationCapFill size={20}/>}/>
-                <SelectAll selectAll={() => selectAllFaculties()} deselectAll={() => deselectAllFaculties()} count={selectedCount} mapLength={mapLength}/>
+                <SectionTitle title={'Faculties'} icon={<PiBooks size={20}/>}/>
+                <UnselectAll handleUnselect={unselectAllFaculties}/>
             </div>
             <div className='flex flex-wrap gap-3 w-full h-min pb-3'>
                 {Object.keys(facultySelection).map(faculty => (

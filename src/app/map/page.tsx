@@ -1,10 +1,10 @@
 import Navbar from '@/components/Navbar/Navbar'
-import { FocusProvider } from '@/providers/FocusProvider'
 import React from 'react'
 
 import { Albert_Sans } from 'next/font/google';
 
 import ResizeableDash from '@/components/MapDashboard/Layout/ResizeableDash'
+import { SidebarProvider } from '@/providers/SidebarProvider';
 
 const albertSans = Albert_Sans({
   subsets: ['latin'],
@@ -13,7 +13,7 @@ const albertSans = Albert_Sans({
 
 function Dashboard() {
   return (
-    <FocusProvider>
+    <SidebarProvider>
       <div className={albertSans.className}>
         <div className='flex flex-col w-full h-screen'>
           <div className='flex flex-col w-full h-full bg-slate-100'>
@@ -22,7 +22,7 @@ function Dashboard() {
           </div>
         </div>
       </div>
-    </FocusProvider>
+    </SidebarProvider>
   )
 }
 

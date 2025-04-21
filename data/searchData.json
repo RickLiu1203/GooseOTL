@@ -1,0 +1,27 @@
+[
+    {
+      "index": 0,
+      "id": "mit",
+      "name": "MIT",
+      "location": { "country": "USA", "city": "Cambridge", "filter": "North America" },
+      "terms": ["Fall", "Spring/Summer"],
+      "faculties": ["Engineering", "Arts"]
+    },
+    {
+      "index": 1,
+      "id": "ethz",
+      "name": "ETH Zurich",
+      "location": { "country": "Switzerland", "city": "Zurich", "filter": "Europe" },
+      "terms": ["Fall", "Winter"],
+      "faculties": ["Engineering", "Science"]
+    },
+    {
+      "index": 2,
+      "id": "uw",
+      "name": "University of Waterloo",
+      "location": { "country": "Canada", "city": "Waterloo", "filter": "North America" },
+      "terms": ["Fall"],
+      "faculties": ["Health", "Mathematics"]
+    }
+  ]
+  

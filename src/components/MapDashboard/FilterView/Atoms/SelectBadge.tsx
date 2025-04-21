@@ -14,7 +14,7 @@ function SelectBadge({item, toggleSelection, selected, selectedStyle}: Props) {
     const toggleStyle = selected ? selectedStyle : defaultStyle;
 
     return (
-        <button onClick={toggleSelection} className={`flex justify-center items-center px-3 py-1 font-medium rounded-full text-sm shadow-sm ${toggleStyle}`}>
+        <button onClick={toggleSelection} className={`flex justify-center items-center px-3 py-1 font-medium rounded-lg text-sm shadow-sm ${toggleStyle}`}>
             {item}
         </button>
     )

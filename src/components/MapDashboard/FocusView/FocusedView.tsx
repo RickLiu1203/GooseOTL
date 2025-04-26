@@ -5,10 +5,8 @@ import { useSidebarContext } from "../../../providers/SidebarProvider"; // ✅ U
 import FocusTitle from "./Molecules/FocusTitle";
 import FocusSubtitles from "./Molecules/FocusSubtitles";
 import FocusFaculties from "./Molecules/FocusFaculties";
-import PageSpacer from "./Atoms/PageSpacer";
 import HeaderImage from "./Atoms/HeaderImage";
 import BackButton from "./Atoms/BackButton";
-import FocusTextList from "./Molecules/FocusTextList";
 import FocusTerms from "./Molecules/SchoolDetails/FocusTerms";
 import FocusRequirements from "./Molecules/SchoolDetails/FocusRequirements";
 

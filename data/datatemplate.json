@@ -1,55 +1,28 @@
 {
-    "0":{
-        "links":["links"],
-        "name": "school name",
-        "studyTerms": ["Fall", "Winter", "Spring"],
-        "openTo": ["Engineering", "Science etc"],
-        "academicLevels": ["Undergraduate", "Graduate"],
-        "location": "location",
-        "likeliness":{
-            "tier": "moderate, lowest etc",
-            "spots": "if a spot amount is present it goes here"
-        },
-        "termDates": [{"term": "example term eg. Spring", "startMonth": "start month", "endMonth": "end month"}],
-        "courses": {
-            "undergrad":{
-                "links":["links to courses pages"],
-                "restrictions": "restrictions",
-                "minCreditsPerTerm": "minimum credits/courses per term"
-            },
-            "graduate":{
-                "links":["links to courses pages"],
-                "restrictions": "restrictions",
-                "minCreditsPerTerm": "minimum credits/courses per term"
-            },
-            "general":{
-                "links":["links to courses pages"],
-                "restrictions": "other school specific restrictions"
-            }
-        },
-        "requirements": {
-            "undergrad":{
-                "minGrade": "min grade",
-                "other": "other undergrad requirements"
-            },
-            "graduate":{
-                "minGrade": "min grade",
-                "other": "other grad requirements"
-            },
-            "other":{
-                "requirementList": ["all other requirements in bullet form"]
-            }
-        },
-        "accomodation": {
-            "accomodationOffered": "type boolean if on campus accomodation is available",
-            "links": ["links"]
-        },
-        "otherInfo": [{
-            "url": "link or empty string if no link associated",
-            "text": "Likeliness - Moderate"
-        }]
-
+    "name": "ETH Zurich",
+    "terms": ["Fall", "Winter"],
+    "location": {
+        "name": "Zurich, Switzerland"
+    },
+    "academicLevels": ["Undergrad", "Graduate"],
+    "critical": ["Computer Science can ONLY take 1/3 of their course credits in the CS department at ETH"],
+    "termDetails": [
+        {"name": "Fall", "hostName": "Autumn", "dates": "September - January"},
+        {"name": "Winter", "hostName": "Spring", "dates": "February - June"}
+    ],
+    "requirements": [
+        "Minimum 2 Years of University Studies",
+        "Good Academic Standing",
+        "Minimum 75% Average"
+    ],
+    "faculties": [
+        "Mathematics"
+    ],
+    "spots": {
+        "likeliness": "Low",
+        "spots": 4
     }
+        
 
-
+    
 }

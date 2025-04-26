@@ -17,7 +17,7 @@ function FacultyTag({faculty}: Props) {
     const bgColor: string = colorMap[faculty] || "bg-white"
 
     return (
-        <div className={`flex justify-center items-center px-3 py-1 rounded-full text-sm shadow-md ${bgColor}`}>
+        <div className={`flex justify-center items-center px-3 py-1 rounded-full text-sm ${bgColor}`}>
             <p>{faculty}</p>
         </div>
     )

@@ -3,19 +3,19 @@ import SpotsIndicator from '../Atoms/SpotsIndicator';
 
 interface Props{
     school: string;
-    spotsObj: SpotsObj;
+    spotsObject: SpotsObject;
 }
 
-interface SpotsObj{
-    tier: string;
+interface SpotsObject{
+    likeliness: string;
     spots: number;
 }
 
-function FocusTitle({school, spotsObj}: Props) {
+function FocusTitle({school, spotsObject}: Props) {
   return (
-    <div className='flex justify-between items-start w-full'>
+    <div className='flex justify-between items-center w-full'>
         <h1 className='text-3xl font-bold w-2/3'>{school}</h1>
-        <SpotsIndicator tier={spotsObj.tier} spots={spotsObj.spots} />
+        <SpotsIndicator likeliness={spotsObject.likeliness} spots={spotsObject.spots} />
     </div>
   )
 }

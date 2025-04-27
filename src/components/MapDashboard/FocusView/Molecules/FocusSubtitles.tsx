@@ -10,7 +10,7 @@ interface Props{
 
 function FocusSubtitles({location, terms, levels}: Props) {
   return (
-    <div className='flex flex-col text-gray-500 gap-1'>
+    <div className='flex flex-col text-neutral-500 gap-1 pb-4'>
         <SubtitleItem icon={IoLocationOutline} text={location} />
         <SubtitleItem icon={IoSchoolOutline} text={levels} />
         <SubtitleItem icon={IoCalendarClearOutline} text={terms} />

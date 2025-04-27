@@ -18,7 +18,7 @@ function FocusRequirements({requirementDetails}: Props) {
     
     return (
         <div className='flex flex-col gap-2'>
-            <SectionTitle title={"📋 Requirements"} toggleSection={toggleSection} collapsed={collapsed}/>
+            <SectionTitle title={"Requirements"} icon={"📋"} toggleSection={toggleSection} collapsed={collapsed}/>
             {!collapsed &&
             <TextListItem bulletTexts={requirementDetails} />
             }

@@ -13,8 +13,8 @@ interface SpotsObject{
 
 function FocusTitle({school, spotsObject}: Props) {
   return (
-    <div className='flex justify-between items-center w-full'>
-        <h1 className='text-3xl font-bold w-2/3'>{school}</h1>
+    <div className='flex justify-between items-center w-full pb-2'>
+        <h1 className='text-3xl font-bold w-2/3 text-neutral-800'>{school}</h1>
         <SpotsIndicator likeliness={spotsObject.likeliness} spots={spotsObject.spots} />
     </div>
   )

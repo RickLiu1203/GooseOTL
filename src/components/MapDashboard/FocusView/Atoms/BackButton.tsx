@@ -1,18 +1,32 @@
-import React from 'react'
-import { FaChevronLeft } from "react-icons/fa";
+import { ChevronLeft, ChevronUp } from 'lucide-react';
+import React from 'react';
 
-interface Props{
+interface Props {
     backClick: () => void;
+    yPos: number;
 }
 
-function BackButton({backClick}: Props) {
+function BackButton({ backClick, yPos }: Props) {
+
   return (
-    <button onClick={backClick} 
-            className='absolute top-6 left-6 bg-white text-black text-lg font-bold rounded-lg p-3 shadow-lg'
-    >
-       <FaChevronLeft size={20}/>
-    </button>
-  )
+    <>
+      { yPos <= 250 ?
+        <button
+        onClick={backClick}
+        className='fixed top-6 left-6 border-[1px] border-black bg-white text-black text-lg font-bold rounded-lg p-3 shadow-lg z-30'
+        >
+            <ChevronLeft size={20}/>
+        </button> :
+        <button
+          onClick={backClick}
+          className='fixed top-6 left-6 border-[1px] border-black bg-white text-black text-lg font-bold rounded-lg p-3 shadow-lg z-30'
+        >
+            <ChevronUp size={20} />
+        </button>
+      }
+    </>
+    
+  );
 }
 
-export default BackButton
+export default BackButton;

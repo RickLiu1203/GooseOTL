@@ -4,11 +4,11 @@ import Image from 'next/image'
 function HeaderImage() {
   return (
         <Image 
-        src="/library.jpg"
+        src="/zurich.jpg"
         alt="School Image"
-        width={400}
+        width={10000}
         height={40}
-        className='w-full h-4/10 object-cover'
+        className='fixed w-1/2 h-1/3 object-cover z-10'
         />
   )
 }

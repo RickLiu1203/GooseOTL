@@ -82,12 +82,23 @@ function FocusView({ schoolData }: Props) {
     //     setSidebarState("list"); // ✅ Switch back to school list
     // };
 
+    const backButtonClick = () => {
+        const div = scrollRef.current;
+        if (scrollY >= 250 && div) {
+            div.scrollTo({
+                top: 0,
+                behavior: 'smooth' 
+            });
+        }
+    };
+    
+
     return (
         <div ref={scrollRef} className="text-black flex flex-col w-full relative overflow-y-scroll">
             {showFocusInfo && (
                 <>
                     <HeaderImage />
-                    <BackButton backClick={() => {}} yPos={scrollY}/>
+                    <BackButton backClick={backButtonClick} yPos={scrollY}/>
                     <div className="flex flex-col bg-white w-full p-10 gap-2 rounded-t-2xl z-20 mt-[60%]">
                         <FocusTitle school={SCHOOL_NAME} spotsObject={SPOTS_OBJECT} />
                         <FocusSubtitles location={LOCATION_NAME} levels={ACADEMIC_LEVELS.join(" & ")} terms={TERMS.join(", ")}/>

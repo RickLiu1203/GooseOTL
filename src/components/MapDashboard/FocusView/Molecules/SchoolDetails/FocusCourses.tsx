@@ -6,17 +6,6 @@ import PageSpacer from '../../Atoms/PageSpacer';
 import SectionTitle from '../../Atoms/SectionTitle';
 import LinkListItem from '../../Atoms/LinkListItem';
 
-interface TermDetails{
-    name: string,
-    hostName: string,
-    dates: string
-}
-
-interface ExamObject{
-    early: boolean,
-    proctored: boolean
-}
-
 interface LinkObject{
     text: string,
     url: string
@@ -44,7 +33,7 @@ function FocusCourses({important, credits, links, transcript}: Props) {
                 <TextListItem subtitle='Important❗️' bulletTexts={important} />
                 <TextListItem subtitle='Credits' bulletTexts={credits} />
                 <TextListItem subtitle='Transcript' bulletTexts={transcript} />
-                <LinkListItem links={links} />
+                <LinkListItem links={links} showSubtitle={true}/>
 
             </>
             }

@@ -9,12 +9,11 @@ interface Props{
 function FocusFaculties({faculties}: Props) {
   return (
     <>
-      <div className='flex flex-wrap gap-4'>
+      <div className='flex flex-wrap gap-4 pb-8'>
           {faculties.sort().map((faculty: string, index: number) => 
               <FacultyTag key={index} faculty={faculty} />
           )}
       </div>
-      <PageSpacer />
     </>
   )
 }

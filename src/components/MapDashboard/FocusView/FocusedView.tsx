@@ -10,6 +10,8 @@ import BackButton from "./Atoms/BackButton";
 import FocusTerms from "./Molecules/SchoolDetails/FocusTerms";
 import FocusRequirements from "./Molecules/SchoolDetails/FocusRequirements";
 import FocusCourses from "./Molecules/SchoolDetails/FocusCourses";
+import FocusOtherLinks from "./Molecules/SchoolDetails/FocusOtherLinks";
+import FocusPageSelect from "./Molecules/FocusPageSelect";
 
 interface Props {
     schoolData: Record<string, any>;
@@ -35,6 +37,7 @@ function FocusView({ schoolData }: Props) {
     const COURSES_CREDITS = schoolData.courseDetails.credits;
     const COURSES_LINKS = schoolData.courseDetails.links;
     const COURSES_TRANSCRIPT = schoolData.courseDetails.transcript;
+    const OTHER_LINKS = schoolData.otherLinks
     
     const [showFocusInfo, setShowFocusInfo] = useState(false);
     
@@ -103,11 +106,11 @@ function FocusView({ schoolData }: Props) {
                         <FocusTitle school={SCHOOL_NAME} spotsObject={SPOTS_OBJECT} />
                         <FocusSubtitles location={LOCATION_NAME} levels={ACADEMIC_LEVELS.join(" & ")} terms={TERMS.join(", ")}/>
                         <FocusFaculties faculties={FACULTIES} />
-                        <div className="flex flex-col gap-2">
-                            <FocusRequirements requirementDetails={REQUIREMENTS}/>
-                            <FocusTerms termDetails={TERM_DETAILS} exams={EXAM_DETAILS} links={TERM_LINKS}/>
-                            <FocusCourses important={COURSES_IMPORTANT} credits={COURSES_CREDITS} links={COURSES_LINKS} transcript={COURSES_TRANSCRIPT}/>
-                        </div>
+                        <FocusPageSelect />
+                        <FocusRequirements requirementDetails={REQUIREMENTS}/>
+                        <FocusTerms termDetails={TERM_DETAILS} exams={EXAM_DETAILS} links={TERM_LINKS}/>
+                        <FocusCourses important={COURSES_IMPORTANT} credits={COURSES_CREDITS} links={COURSES_LINKS} transcript={COURSES_TRANSCRIPT}/>
+                        <FocusOtherLinks links={OTHER_LINKS} />
                     </div>
                 </>
             )}

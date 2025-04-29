@@ -52,7 +52,7 @@ function FocusTerms({termDetails, exams, links}: Props) {
                 <TextListItem subtitle={"Exam Details"} 
                 bulletTexts={[`Early exams ${examDetailMap[String(exams.early)]}`, `Proctored exams at Waterloo ${examDetailMap[String(exams.proctored)]}`]} 
                 />
-                <LinkListItem links={links} />
+                <LinkListItem links={links} showSubtitle={true}/>
             </>
             }
             <PageSpacer />

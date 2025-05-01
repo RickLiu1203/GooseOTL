@@ -1,0 +1,28 @@
+{
+    "id": 0,
+    "reviews": [
+        {
+            "name": "Rick Liu",
+            "program": "Computer Engineering",
+            "exchangeTerm": "3A",
+            "exchangeTime": "Winter 2025",
+            "ratings": {
+                "campus": 10,
+                "social": 8,
+                "local": 5,
+                "travel": 10
+            },
+            "academics":{
+                "overallDifficulty": 10,
+                "courses": [
+                    {"course": "ECE3073", "difficulty": 2},
+                    {"course": "ECE3142", "difficulty": 1},
+                    {"course": "BIO2011", "difficulty": 0},
+                    {"course": "ASP2011", "difficulty": 1}
+                ]
+            },
+            "reviewText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto beatae totam mollitia, asperiores ad nisi delectus ipsa, facilis alias facere doloribus earum praesentium doloremque quis eos rem, voluptate porro reprehenderit?",
+            "suggestions": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto beatae totam mollitia, asperiores ad nisi delectus ipsa, facilis alias facere doloribus earum praesentium doloremque quis eos rem, voluptate porro reprehenderit?"
+        }
+    ]
+}

@@ -12,10 +12,9 @@ function FocusPageSelect() {
 
     return (
         <>
-            <div className="w-48">
-                <SectionTitle title="Page Select" icon="💻" />
+            <div className="w-2/3">
                 <Select value={current} onValueChange={handleChange} defaultValue='school'>
-                    <SelectTrigger className='h-10 mt-6 mb-12 font-semibold text-base ring-0 focus:ring-0 focus:ring-offset-0 focus:outline-none shadow-smallBtn border-[1px] border-neutral-800'>
+                    <SelectTrigger className='h-10 bg-neutral-100 font-semibold text-base ring-0 border-none shadow-none focus:ring-0 focus:ring-offset-0 focus:outline-none'>
                         <SelectValue placeholder="Select a page" />
                     </SelectTrigger>
                     <SelectContent className='bg-neutral-800 text-white'>
@@ -25,6 +24,7 @@ function FocusPageSelect() {
                     </SelectContent>
                 </Select>
             </div>
+            <PageSpacer />
         </>
     )
 }

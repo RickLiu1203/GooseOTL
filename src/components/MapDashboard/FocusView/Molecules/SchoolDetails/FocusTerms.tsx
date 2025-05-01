@@ -44,10 +44,10 @@ function FocusTerms({termDetails, exams, links}: Props) {
             <SectionTitle title={"Term Details"} icon={"🗓️"} toggleSection={toggleSection} collapsed={collapsed}/>
             {!collapsed && 
             <>
-                {termDetails.map((term) => (
+                {termDetails.map((term: TermDetails, index: number) => (
                     term.hostName ?
-                    <TextListItem subtitle={`${term.name} (${term.hostName})`} bulletTexts={[term.dates]} /> : 
-                    <TextListItem subtitle={term.name} bulletTexts={[term.dates]} />
+                    <TextListItem key={index} subtitle={`${term.name} (${term.hostName})`} bulletTexts={[term.dates]} /> : 
+                    <TextListItem key={index} subtitle={term.name} bulletTexts={[term.dates]} />
                 ))}
                 <TextListItem subtitle={"Exam Details"} 
                 bulletTexts={[`Early exams ${examDetailMap[String(exams.early)]}`, `Proctored exams at Waterloo ${examDetailMap[String(exams.proctored)]}`]} 

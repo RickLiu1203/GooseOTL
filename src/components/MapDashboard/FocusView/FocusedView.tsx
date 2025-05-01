@@ -12,12 +12,15 @@ import FocusRequirements from "./Molecules/SchoolDetails/FocusRequirements";
 import FocusCourses from "./Molecules/SchoolDetails/FocusCourses";
 import FocusOtherLinks from "./Molecules/SchoolDetails/FocusOtherLinks";
 import FocusPageSelect from "./Molecules/FocusPageSelect";
+import FocusLivingWellness from "./Molecules/SchoolDetails/FocusLivingWellness";
+import ReviewInfo from "./Organisms/ReviewInfo";
 
 interface Props {
     schoolData: Record<string, any>;
+    reviewData: Record<string, any>;
 }
 
-function FocusView({ schoolData }: Props) {
+function FocusView({ schoolData, reviewData }: Props) {
     const scrollRef = useRef<HTMLDivElement>(null);
     // const { setSidebarState, state, focusedId } = useSidebarContext();
     const state = "focused";
@@ -37,8 +40,13 @@ function FocusView({ schoolData }: Props) {
     const COURSES_CREDITS = schoolData.courseDetails.credits;
     const COURSES_LINKS = schoolData.courseDetails.links;
     const COURSES_TRANSCRIPT = schoolData.courseDetails.transcript;
+    const ACCOMODATION = schoolData.livingWellness.accomodation;
+    const LIVING_LINKS = schoolData.livingWellness.links;
     const OTHER_LINKS = schoolData.otherLinks
     
+
+    const REVIEW_DATA= reviewData.reviews;
+
     const [showFocusInfo, setShowFocusInfo] = useState(false);
     
     const [scrollY, setScrollY] = useState(0);
@@ -97,7 +105,7 @@ function FocusView({ schoolData }: Props) {
     
 
     return (
-        <div ref={scrollRef} className="text-black flex flex-col w-full relative overflow-y-scroll">
+        <div ref={scrollRef} className="text-black flex flex-col w-full relative overflow-y-scroll no-scrollbar">
             {showFocusInfo && (
                 <>
                     <HeaderImage />
@@ -110,7 +118,13 @@ function FocusView({ schoolData }: Props) {
                         <FocusRequirements requirementDetails={REQUIREMENTS}/>
                         <FocusTerms termDetails={TERM_DETAILS} exams={EXAM_DETAILS} links={TERM_LINKS}/>
                         <FocusCourses important={COURSES_IMPORTANT} credits={COURSES_CREDITS} links={COURSES_LINKS} transcript={COURSES_TRANSCRIPT}/>
+                        <FocusLivingWellness accomodation={ACCOMODATION} links={LIVING_LINKS} />
                         <FocusOtherLinks links={OTHER_LINKS} />
+                        
+                        {REVIEW_DATA.map((review: any, index: number) => (
+                            <ReviewInfo review={review} index={index} />
+                        ))
+                        }
                     </div>
                 </>
             )}

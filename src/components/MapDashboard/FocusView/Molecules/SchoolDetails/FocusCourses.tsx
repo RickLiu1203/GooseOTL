@@ -24,7 +24,7 @@ function FocusCourses({important, credits, links, transcript}: Props) {
     const toggleSection = () => {
         setCollapsed(!collapsed)
     }
-    
+        
     return (
         <div className='flex flex-col gap-2'>
             <SectionTitle title={"Courses & Academics"} icon={"📚"} toggleSection={toggleSection} collapsed={collapsed}/>
